@@ -38,3 +38,21 @@ let state;
 // console.log(typeof score);
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
+
+//############## OPERATIONS #########################
+
+let value = 3
+let negVAlue = -value
+// console.log(negVAlue);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+// let str1= "hello"
+// let str2="RAFIA"
+// let str3= str1+str2
+// console.log(str3)
+

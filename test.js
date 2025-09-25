@@ -89,13 +89,31 @@ let negVAlue = -value
 //*********** REFERENCE TYPE/NON-PERMITIVE ***********/
 // Arrays, Objects, Functions
 
-const heros = ["shaktiman", "hunhhh", "doga"];
-let myobj={
-    name:"rafia",
-    age:22,
-}
-const myFunction=function(){
-    console.log("HELLO WORLD");
+// const heros = ["shaktiman", "hunhhh", "doga"];
+// let myobj={
+//     name:"rafia",
+//     age:22,
+// }
+// const myFunction=function(){
+//     console.log("HELLO WORLD");
     
-}
+// }
 
+//############## STACK & HEAP ######################
+// Stack(Permitive), Heap(non-primitive)
+
+let myFunctions="rafia"
+let anotherName= myFunctions
+anotherName="chai aur code "
+// console.log(anotherName);
+// console.log(myFunctions);
+
+let user ={
+    email:"rafia@gmail.com",
+    upi:"user@ybl"
+}
+let user2 =user 
+user2.email= "rafiamaskeen@gmail.com"
+
+console.log(user2);
+console.log(user);

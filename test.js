@@ -66,7 +66,36 @@ let negVAlue = -value
 // console.log("2">1);
 // console.log("02">1);
 
-console.log(null >0);
-console.log(null ==0);
-console.log(null >=0);
+// console.log(null >0);
+// console.log(null ==0);
+// console.log(null >=0);
+
+//############### SUMMARY OF DATATYPES ################
+//********** PERMITIVE DATATYPE ************/
+// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// const score = 100
+// const scoreValue = 100.3
+
+// const isLogedIn = false
+// const outsideTemp = null
+// let userEmail;
+
+// const id=Symbol('123')
+// const idanother=Symbol('123')
+
+// console.log(id===idanother)
+// const bigNumer = 12322437499344444444444457712n
+
+//*********** REFERENCE TYPE/NON-PERMITIVE ***********/
+// Arrays, Objects, Functions
+
+const heros = ["shaktiman", "hunhhh", "doga"];
+let myobj={
+    name:"rafia",
+    age:22,
+}
+const myFunction=function(){
+    console.log("HELLO WORLD");
+    
+}
 

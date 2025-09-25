@@ -30,5 +30,11 @@ let state;
 
 
 // object 
-console.log(typeof undefined) // undefined
-console.log(typeof null) // object
+// console.log(typeof undefined) // undefined
+// console.log(typeof null) // object
+
+//################## DATA CONVERSION #######################
+// let score = 33
+// console.log(typeof score);
+// let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);

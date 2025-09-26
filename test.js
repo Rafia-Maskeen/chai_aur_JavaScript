@@ -166,14 +166,34 @@ let negVAlue = -value
 
 
 // ############################ DATE & TIME ####################
-let myDAte= new Date()
-console.log(myDAte.toString());
-console.log(myDAte.toDateString());
-console.log(myDAte.toLocaleDateString());
-console.log(myDAte.toLocaleString());
+// let myDAte= new Date()
+// console.log(myDAte.toString());
+// console.log(myDAte.toDateString());
+// console.log(myDAte.toLocaleDateString());
+// console.log(myDAte.toLocaleString());
 
 //  ************ TIME **********
 
-let mytimeStamp= Date.now()
-console.log(mytimeStamp);
-console.log(mytimeStamp);
+// let mytimeStamp= Date.now()
+// console.log(mytimeStamp);
+// console.log(mytimeStamp);
+
+// #################### ARRAY #############################
+const myArr =[0,1,2,3,4,5,6]
+const myArr2 =["sw","rr","req"]
+const myArr3 =new Array(1,2,3)
+console.log(myArr[0]);
+console.log(myArr2[0]);
+console.log(myArr3[0]);
+// Array Methods
+myArr.push(7)
+console.log(myArr);
+
+myArr.pop()
+console.log(myArr);
+
+myArr.pop()
+console.log(myArr);
+console.log(myArr.includes(9));
+console.log(myArr.indexOf(9));
+//concat, push,splash,flat

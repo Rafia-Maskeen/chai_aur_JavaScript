@@ -138,28 +138,42 @@ let negVAlue = -value
 // includes used for searching a word 
 
 //###################### NUMBER & MATH ######################
-const score = 400
-const balance = new Number(400)
-console.log(balance);
-console.log(balance.toString().length);
-console.log(balance.toFixed(2));
-const hundred= 100000
-console.log(hundred.toLocaleString());
+// const score = 400
+// const balance = new Number(400)
+// console.log(balance);
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(2));
+// const hundred= 100000
+// console.log(hundred.toLocaleString());
 
                     //************** MATH  **********/
-console.log(Math);
-console.log(Math.abs(-4)); // just convert neg value into positive value
-console.log(Math.round(4.6));
-console.log(Math.ceil(4.6));
-console.log(Math.floor(4.6));
-console.log(Math.min(4,6,4,3,2,9));
-console.log(Math.max(4,6,4,3,2,9));
+// console.log(Math);
+// console.log(Math.abs(-4)); // just convert neg value into positive value
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.6));
+// console.log(Math.floor(4.6));
+// console.log(Math.min(4,6,4,3,2,9));
+// console.log(Math.max(4,6,4,3,2,9));
 
 
-console.log(Math.random());
-console.log((Math.random()*10)+1);
+// console.log(Math.random());
+// console.log((Math.random()*10)+1);
 
 
-const min =10
-const max=20
-console.log(Math.floor(Math.random()*(max-min +1))+min);
+// const min =10
+// const max=20
+// console.log(Math.floor(Math.random()*(max-min +1))+min);
+
+
+// ############################ DATE & TIME ####################
+let myDAte= new Date()
+console.log(myDAte.toString());
+console.log(myDAte.toDateString());
+console.log(myDAte.toLocaleDateString());
+console.log(myDAte.toLocaleString());
+
+//  ************ TIME **********
+
+let mytimeStamp= Date.now()
+console.log(mytimeStamp);
+console.log(mytimeStamp);

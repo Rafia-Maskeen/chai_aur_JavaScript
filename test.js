@@ -119,20 +119,47 @@ let negVAlue = -value
 // console.log(user);
 
 // ############################ STRING ########################
-const namee = "rafia"
-const repoCOunt = 50
-const gameName=new String ('rafia-nad')
+// const namee = "rafia"
+// const repoCOunt = 50
+// const gameName=new String ('rafia-nad')
 // console.log(namee + repoCOunt + "Value");
 // console.log(`Hello my name is ${namee} and my repo count is ${repoCOunt}`);
 // console.log(gameName.length);
 // console.log(gameName.toLocaleUpperCase());
-const newString = gameName.substring(0,4)
-console.log(newString);
+// const newString = gameName.substring(0,4)
+// console.log(newString);
 
-const anothernewString = gameName.slice(-8,4)
-console.log(anothernewString);
+// const anothernewString = gameName.slice(-8,4)
+// console.log(anothernewString);
 
 // trim removing starrting and end space from the string, only work on new line 
-const url = "https://rafia.com/rafia20%ch"
-console.log(url.replace('20%','='));
+// const url = "https://rafia.com/rafia20%ch"
+// console.log(url.replace('20%','='));
 // includes used for searching a word 
+
+//###################### NUMBER & MATH ######################
+const score = 400
+const balance = new Number(400)
+console.log(balance);
+console.log(balance.toString().length);
+console.log(balance.toFixed(2));
+const hundred= 100000
+console.log(hundred.toLocaleString());
+
+                    //************** MATH  **********/
+console.log(Math);
+console.log(Math.abs(-4)); // just convert neg value into positive value
+console.log(Math.round(4.6));
+console.log(Math.ceil(4.6));
+console.log(Math.floor(4.6));
+console.log(Math.min(4,6,4,3,2,9));
+console.log(Math.max(4,6,4,3,2,9));
+
+
+console.log(Math.random());
+console.log((Math.random()*10)+1);
+
+
+const min =10
+const max=20
+console.log(Math.floor(Math.random()*(max-min +1))+min);
